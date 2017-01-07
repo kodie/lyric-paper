@@ -1,0 +1,49 @@
+{
+  "name": "lyric-paper",
+  "version": "1.0.0",
+  "description": "A node module that draws a random line of song lyrics onto a random image from Flickr.",
+  "keywords": [
+    "rnd",
+    "random",
+    "image",
+    "img",
+    "text",
+    "pic",
+    "picture",
+    "draw",
+    "lyric",
+    "song",
+    "music",
+    "Flickr",
+    "wallpaper",
+    "canvas"
+  ],
+  "author": {
+    "name": "Kodie Grantham",
+    "email": "kodie.grantham@gmail.com",
+    "url": "http://kodieg.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kodie/lyric-paper.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kodie/lyric-paper/issues"
+  },
+  "homepage": "https://github.com/kodie/lyric-paper",
+  "license": "MIT",
+  "main": "index.js",
+  "dependencies": {
+    "canvas": "^1.6.2",
+    "colors": "^1.1.2",
+    "fs": "0.0.1-security",
+    "node-canvas-text": "^1.0.2",
+    "opentype.js": "^0.6.7",
+    "p-if": "^1.1.0",
+    "promise": "^7.1.1",
+    "request": "^2.79.0",
+    "rnd-flickr": "^1.0.1",
+    "rnd-song": "^1.0.0",
+    "spontaneous-text": "^1.0.0"
+  }
+}
