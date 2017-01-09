@@ -4,6 +4,7 @@ var colors = require('colors');
 var drawText = require('node-canvas-text').default;
 var fs = require('fs');
 var imgTxt = require('spontaneous-text');
+var merge = require('deepmerge');
 var opentype = require('opentype.js');
 var Promise = require('promise');
 var request = require('request');
@@ -208,7 +209,7 @@ function saveImage(stream, file) {
 }
 
 module.exports = function(options, cb) {
-  settings = Object.assign({}, defaults, options);
+  settings = merge(defaults, options);
 
   getImg()
     .then(function(i){
