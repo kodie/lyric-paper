@@ -45,6 +45,7 @@
     "request": "^2.79.0",
     "rnd-flickr": "^1.0.1",
     "rnd-song": "^1.0.0",
+    "sharp": "^0.17.0",
     "spontaneous-text": "^1.0.0"
   }
 }

@@ -1,3 +1,6 @@
+'use strict';
+
+var sharp = require('sharp'); // Require sharp before canvas because of this: https://github.com/lovell/sharp/issues/371
 var Canvas = require('canvas');
 var Image = Canvas.Image;
 var colors = require('colors');
