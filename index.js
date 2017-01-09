@@ -5,7 +5,7 @@ var drawText = require('node-canvas-text').default;
 var fs = require('fs');
 var imgTxt = require('spontaneous-text');
 var opentype = require('opentype.js');
-var promise = require('promise');
+var Promise = require('promise');
 var request = require('request');
 var rndImg = require('rnd-flickr');
 var rndSong = require('rnd-song');
@@ -257,7 +257,7 @@ module.exports = function(options, cb) {
       var stream = r[0].pngStream();
       return saveImage(stream, settings.file)
         .then(function(s){ return r[1]; })
-    }))
+    }, function(r){ return r[1]; }))
     .then(function(r){
       cb(null, r);
     })
