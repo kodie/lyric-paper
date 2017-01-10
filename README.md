@@ -99,7 +99,7 @@ lyricPaper(settings, function(err, res) {
 ```
 
 ## Return
-Here's an example of the the response will look like:
+Here's an example of what the response will look like:
 
 ```
 {
