@@ -22,7 +22,7 @@ var settings = {
 lyricPaper(settings, function(err, res) {
   if (!err) {
     console.log(res);
-  } else { throw err; }
+  } else { console.log(new Error(err)); }
 });
 ```
 
