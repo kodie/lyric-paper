@@ -43,9 +43,9 @@
     "p-if": "^1.1.0",
     "promise": "^7.1.1",
     "request": "^2.79.0",
-    "rnd-flickr": "^1.0.1",
-    "rnd-song": "^1.0.0",
+    "rnd-flickr": "^1.0.x",
+    "rnd-song": "^1.0.x",
     "sharp": "^0.17.0",
-    "spontaneous-text": "^1.0.0"
+    "spontaneous-text": "^1.0.x"
   }
 }
