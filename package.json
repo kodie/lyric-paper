@@ -1,6 +1,6 @@
 {
   "name": "lyric-paper",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A node module that draws a random line of song lyrics onto a random image from Flickr.",
   "keywords": [
     "rnd",
