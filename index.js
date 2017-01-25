@@ -23,6 +23,7 @@ var defaults = {
   "padding": 10,
   "tags": ["landscape", "people", "puppy", "kitten"],
   "tag_mode": "any",
+  "content_type": "",
   "genre": "",
   "language": "en",
   "flickr_api_key": "",
@@ -50,7 +51,8 @@ function getImg() {
         width: settings.width,
         height: settings.height,
         tags: settings.tags,
-        tag_mode: settings.tag_mode
+        tag_mode: settings.tag_mode,
+        content_type: settings.content_type
     };
 
     rndImg(options, function(error, image, data) {

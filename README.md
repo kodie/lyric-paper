@@ -41,6 +41,15 @@ lyricPaper(settings, function(err, res) {
 
 `tag_mode` - Set to either `any` or `all` to use any or all tags in the image search.
 
+`content_type` - The type of content you would like the image to be:
+* 1 for photos only.
+* 2 for screenshots only.
+* 3 for 'other' only.
+* 4 for photos and screenshots.
+* 5 for screenshots and 'other'.
+* 6 for photos and 'other'.
+* 7 for photos, screenshots, and 'other' (all).
+
 `genre` - The Musixmatch genre ID for the music genre of the song that you would like your random lyrics to be from. ([See a list of genre IDs here](https://github.com/kodie/rnd-song/blob/master/genres.json))
 
 `language` - The [ISO 639-1](https://en.wikipedia.org/wiki/ISO_639-1) language code for the language that you would like your random song to be. (ie. `en`)
@@ -80,6 +89,7 @@ lyricPaper(settings, function(err, res) {
   "padding": 10,
   "tags": ["landscape", "people", "puppy", "kitten"],
   "tag_mode": "any",
+  "content_type": "",
   "genre": "",
   "language": "en",
   "flickr_api_key": "",
