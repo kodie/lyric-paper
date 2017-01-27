@@ -1,4 +1,4 @@
-# lyric-paper
+# lyric-paper [![npm version](https://badge.fury.io/js/lyric-paper.svg)](https://badge.fury.io/js/lyric-paper)
 
 A node module that draws a random line of song lyrics onto a random image from Flickr.
 
